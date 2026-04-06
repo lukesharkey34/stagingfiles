@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "ABM_CLIENT_ID": "<your-abm-client-id-from-business.apple.com>",
+    "ABM_KEY_ID": "<your-abm-key-id>",
+    "ABM_PRIVATE_KEY_PEM": "<paste-pem-content-here-for-local-dev-only>",
+    "KEY_VAULT_URL": "https://<your-vault-name>.vault.azure.net/",
+    "KEY_VAULT_SECRET_NAME": "abm-private-key"
+  }
+}
