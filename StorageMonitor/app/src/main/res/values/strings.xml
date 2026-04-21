@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Storage Monitor</string>
+    <string name="summary_format">%1$d apps · %2$s total</string>
+    <string name="breakdown_format">App %1$s · Data %2$s · Cache %3$s</string>
+    <string name="system_tag">System</string>
+    <string name="permission_required">Usage access required</string>
+    <string name="permission_explanation">
+        This app needs the \"Usage access\" permission to read per-app storage sizes.
+        On a managed Zebra device, this is normally pre-granted by the MDM profile;
+        otherwise tap the button below to grant it manually.
+    </string>
+    <string name="open_usage_access">Open Usage Access settings</string>
+</resources>
