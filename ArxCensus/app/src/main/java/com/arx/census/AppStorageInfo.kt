@@ -1,4 +1,4 @@
-package com.zebra.storagemonitor
+package com.arx.census
 
 import android.graphics.drawable.Drawable
 

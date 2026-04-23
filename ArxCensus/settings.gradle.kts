@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "StorageMonitor"
+rootProject.name = "ArxCensus"
 include(":app")

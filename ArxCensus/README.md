@@ -1,4 +1,4 @@
-# Storage Monitor
+# ArxCensus
 
 A simple Android app for Zebra handhelds that lists every installed app along
 with how much space it's taking (APK, data, cache, and the total). Intended to
@@ -26,7 +26,7 @@ be deployed via Workspace ONE.
 ## Building
 
 ```
-cd StorageMonitor
+cd ArxCensus
 ./gradlew assembleRelease
 ```
 
@@ -35,7 +35,7 @@ Sign it with your enterprise signing key before pushing through Workspace ONE:
 
 ```
 apksigner sign --ks your-keystore.jks \
-  --out StorageMonitor-1.0.apk \
+  --out ArxCensus-1.0.apk \
   app/build/outputs/apk/release/app-release-unsigned.apk
 ```
 
@@ -55,7 +55,7 @@ apksigner sign --ks your-keystore.jks \
    with a run-once command:
 
    ```
-   appops set com.zebra.storagemonitor GET_USAGE_STATS allow
+   appops set com.arx.census GET_USAGE_STATS allow
    ```
 
    Workspace ONE's "Run Intent" / "Custom Settings" profile or a StageNow
@@ -69,7 +69,7 @@ apksigner sign --ks your-keystore.jks \
 ## Project layout
 
 ```
-StorageMonitor/
+ArxCensus/
 ├── build.gradle.kts              Root Gradle script (AGP + Kotlin plugins)
 ├── settings.gradle.kts           Single-module project settings
 ├── gradle.properties
@@ -79,7 +79,7 @@ StorageMonitor/
     ├── proguard-rules.pro
     └── src/main/
         ├── AndroidManifest.xml
-        ├── java/com/zebra/storagemonitor/
+        ├── java/com/arx/census/
         │   ├── AppStorageInfo.kt     Data class for one row
         │   ├── ByteFormat.kt         Bytes → human-readable string
         │   ├── MainActivity.kt       Screen + permission handling

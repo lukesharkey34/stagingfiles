@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.zebra.storagemonitor"
+    namespace = "com.arx.census"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.zebra.storagemonitor"
+        applicationId = "com.arx.census"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

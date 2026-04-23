@@ -1,11 +1,11 @@
-package com.zebra.storagemonitor
+package com.arx.census
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.zebra.storagemonitor.databinding.ItemAppStorageBinding
+import com.arx.census.databinding.ItemAppStorageBinding
 
 class StorageAdapter : ListAdapter<AppStorageInfo, StorageAdapter.VH>(DIFF) {
 

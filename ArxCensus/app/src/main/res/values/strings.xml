@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Storage Monitor</string>
+    <string name="app_name">ArxCensus</string>
     <string name="summary_format">%1$d apps · %2$s total</string>
     <string name="breakdown_format">App %1$s · Data %2$s · Cache %3$s</string>
     <string name="system_tag">System</string>

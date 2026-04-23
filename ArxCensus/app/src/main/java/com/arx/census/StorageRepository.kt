@@ -1,4 +1,4 @@
-package com.zebra.storagemonitor
+package com.arx.census
 
 import android.app.usage.StorageStatsManager
 import android.content.Context
