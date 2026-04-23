@@ -1,11 +1,11 @@
-package com.arx.census
+package com.kroger.mobeng.arx.census
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.arx.census.databinding.ActivityMainBinding
+import com.kroger.mobeng.arx.census.databinding.ActivityMainBinding
 import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {

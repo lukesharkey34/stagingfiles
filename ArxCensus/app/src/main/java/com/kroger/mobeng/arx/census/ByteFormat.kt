@@ -1,4 +1,4 @@
-package com.arx.census
+package com.kroger.mobeng.arx.census
 
 import java.util.Locale
 

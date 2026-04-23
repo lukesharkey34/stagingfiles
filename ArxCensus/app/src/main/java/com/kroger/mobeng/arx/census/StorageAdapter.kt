@@ -1,11 +1,11 @@
-package com.arx.census
+package com.kroger.mobeng.arx.census
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.arx.census.databinding.ItemAppStorageBinding
+import com.kroger.mobeng.arx.census.databinding.ItemAppStorageBinding
 
 class StorageAdapter : ListAdapter<AppStorageInfo, StorageAdapter.VH>(DIFF) {
 

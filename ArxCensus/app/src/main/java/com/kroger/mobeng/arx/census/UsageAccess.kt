@@ -1,4 +1,4 @@
-package com.arx.census
+package com.kroger.mobeng.arx.census
 
 import android.app.AppOpsManager
 import android.content.Context

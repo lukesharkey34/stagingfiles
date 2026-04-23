@@ -55,7 +55,7 @@ apksigner sign --ks your-keystore.jks \
    with a run-once command:
 
    ```
-   appops set com.arx.census GET_USAGE_STATS allow
+   appops set com.kroger.mobeng.arx.census GET_USAGE_STATS allow
    ```
 
    Workspace ONE's "Run Intent" / "Custom Settings" profile or a StageNow
@@ -79,7 +79,7 @@ ArxCensus/
     ├── proguard-rules.pro
     └── src/main/
         ├── AndroidManifest.xml
-        ├── java/com/arx/census/
+        ├── java/com/kroger/mobeng/arx/census/
         │   ├── AppStorageInfo.kt     Data class for one row
         │   ├── ByteFormat.kt         Bytes → human-readable string
         │   ├── MainActivity.kt       Screen + permission handling

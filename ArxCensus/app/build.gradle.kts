@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.arx.census"
+    namespace = "com.kroger.mobeng.arx.census"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.arx.census"
+        applicationId = "com.kroger.mobeng.arx.census"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
